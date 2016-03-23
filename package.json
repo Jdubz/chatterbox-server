@@ -5,14 +5,9 @@
   "author": "Hack Reactor",
   "license": "Copyright 2013, Hack Reactor. All rights reserved.",
   "scripts": {
-    "start": "node server/basic-server.js",
-    "test": "mocha server/spec",
-    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash"
+    "start": "node server/basic-server.js"
   },
   "devDependencies": {
-    "chai": "^1.9.0",
-    "eslint-config-hackreactor": "git://github.com/hackreactor-labs/eslint-config-hackreactor",
-    "mocha": "^1.21.4",
     "request": "^2.34.0"
   },
   "dependencies": {
@@ -20,5 +15,8 @@
     "express": "^4.13.4",
     "querystring": "^0.2.0",
     "underscore": "^1.8.3"
+  }, 
+  "engines": {
+    "node": "5.9.0"
   }
 }
